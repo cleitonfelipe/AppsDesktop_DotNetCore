@@ -10,12 +10,32 @@ Link:[Windows Forms no .Net Core](https://youtu.be/beMM-HA1FTk).
 2. Neste segundo vídeo demonstro como habilitar e utilizar o Design Preview para Windows Forms com o .Net Core no Visual Studio 2019 Preview.
 Link:[Windows Forms Design Preview](https://youtu.be/8qYbJGnIhRg).  
 
-### Criando projeto
+### Criando projeto WinForms
 
 1. Execute o comando abaixo para criar um projeto Windows Forms com um nome da seua excolha.
 
 ```powershell
 dotnet new winforms --name WinFormsApp
+```
+
+2. Para compilar o seu projeto execute o seguinte comando.
+
+```powershell
+dotnet build
+```
+
+3. Para ver o seu projeto rodando execute o seguinte comando.
+
+```powershell
+dotnet run
+```
+
+### Criando projeto WPF
+
+1. Execute o comando abaixo para criar um projeto Windows Forms com um nome da seua excolha.
+
+```powershell
+dotnet new wpf --name WPFApp
 ```
 
 2. Para compilar o seu projeto execute o seguinte comando.
