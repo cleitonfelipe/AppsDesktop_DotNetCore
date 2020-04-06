@@ -19,7 +19,7 @@ namespace AppWinFormsCli
             btn = new Button();
             btn.Size = new Size(100, 60);
             btn.Location = new Point(30, 30);
-            btn.Text = "Click Me";
+            btn.Text = "Click Me 1";
             this.Controls.Add(btn);
             btn.Click += new EventHandler(btn_Click);
         }
@@ -28,6 +28,5 @@ namespace AppWinFormsCli
         {
             MessageBox.Show("Olá .Net Core WinForms");
         }
-
     }
 }
